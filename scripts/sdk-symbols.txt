@@ -1,0 +1,66 @@
+# API names DuoLab relies on, one per line, spelled as they appear in the SDK
+# (Swift name in .swiftinterface files, or the ObjC name in framework headers).
+# scripts/verify-sdk-symbols.sh checks each one against the installed iOS SDK.
+# Add a line here whenever a demo, note or doc starts depending on a new API.
+
+# SwiftUI: arrangement (two-pane layouts)
+ArrangementView
+arrangementViewStyle
+SplitArrangementViewStyle
+splitArrangementLayoutRatio
+splitArrangementLayoutSize
+splitArrangementFixedLayoutSize
+
+# SwiftUI: reserved regions (hinge division, camera occlusion)
+ReservedRegion
+reservedRegions(kind:
+includeInactive
+
+# SwiftUI: hinge
+DeviceHinge
+DeviceHingeContext
+onHingeChange
+
+# SwiftUI: vertical bars, toolbars, presentation
+toolbarVerticalBehavior
+toolbarVerticalEdge
+toolbarVerticalCompressionBehavior
+ToolbarItemAxisBehavior
+axisBehavior
+visibilityPriority
+ToolbarOverflowMenu
+presentationPlacement
+backgroundExtensionEffect
+
+# SwiftUI: scene accessories (outer display during capture)
+CameraCaptureAccessory
+sceneAccessory
+onAvailabilityChange
+
+# UIKit
+UIArrangementViewController
+UISplitArrangement
+UIOverlayArrangement
+UIHingeInteraction
+UIHingeStatus
+preferredVerticalBarBehavior
+verticalBarEdge
+UIBackgroundExtensionView
+UISceneAccessory
+registerSceneAccessory
+
+# AVFoundation / AVKit (front cameras)
+AVCaptureDeviceTypeBuiltInOuterUltraWideCamera
+AVCaptureDeviceTypeBuiltInInnerUltraWideCamera
+AVCaptureDeviceDirectionCoordinator
+AVCaptureDeviceDirectionMap
+activePrimaryConstituent
+
+# FoundationModels (Ask DuoLab)
+SystemLanguageModel
+PrivateCloudComputeLanguageModel
+LanguageModelSession
+Generable
+quotaUsage
+SpotlightSearchTool
+CoreSpotlightSource

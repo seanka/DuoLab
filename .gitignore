@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Xcode per-user state (never commit: personal paths, window layout, breakpoints)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Build output
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Behavior recorder exports dropped into the repo by accident
+*.duolab-recording.json
+
+# Tooling output
+graphify-out/
